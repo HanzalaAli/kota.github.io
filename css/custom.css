@@ -372,6 +372,9 @@ header.main-header {
   /* BANNER END */
 
     /* BETTER SITE  */
+    .banner-img {
+      overflow: hidden;
+    }  
     section.better-site {
       margin: 100px 0 0;
   }
