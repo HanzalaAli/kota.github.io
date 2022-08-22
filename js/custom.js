@@ -77,6 +77,31 @@ if(typeof window.IntersectionObserver !== 'undefined') {
 // PARALLEX END
 
 
+const images = [
+  "https://i.postimg.cc/DZ90DFdp/kota.png"
+  ];
+  
+  
+  rgbKineticSlider = new rgbKineticSlider({
+    slideImages: images,
+  
+    backgroundDisplacementSprite: "https://i.ibb.co/N246LxD/map-9.jpg", 
+    cursorDisplacementSprite: "https://i.ibb.co/KrVr51f/displace-circle.png",
+    cursorImgEffect: true,
+    cursorTextEffect: true,
+    cursorScaleIntensity: 0.8,
+    cursorMomentum: 0.02,
+  
+    swipe: true,
+    swipeDistance: window.innerWidth * 0.4,
+    swipeScaleIntensity: 2,
+  
+    slideTransitionDuration: 1, // transition duration
+    transitionScaleIntensity: 30, // scale intensity during transition
+    transitionScaleAmplitude: 160, // scale amplitude during transition
+  
+  });
+  
 
 
 // Gallery
